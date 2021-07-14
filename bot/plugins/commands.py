@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '🔥© ക്ലബ്ബ് സിനിമ™🔥', url="https://t.me/joinchat/7RzzppQxG95jOGE1"
                                 )
                         ]
                     ]

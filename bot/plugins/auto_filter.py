@@ -66,7 +66,7 @@ async def auto_filter(bot, update):
             file_link = filter.get("file_link")
             file_size = int(filter.get("file_size", "0"))
             
-            # from B to MiB
+            # from B to MB
             
             if file_size < 1024:
                 file_size = f"[{file_size} B]"

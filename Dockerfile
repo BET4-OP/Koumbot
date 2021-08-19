@@ -7,5 +7,4 @@ COPY requirements.txt /requirements.txt
 RUN cd /
 RUN pip3 install -r requirements.txt
 RUN cd /
-
-CMD python3 -m bot
+CMD ["python3", "-m", "bot"]

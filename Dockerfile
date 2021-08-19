@@ -8,4 +8,4 @@ RUN cd /
 RUN pip3 install -r requirements.txt
 RUN cd /
 
-RUN python3 -m bot
+CMD python3 -m bot
